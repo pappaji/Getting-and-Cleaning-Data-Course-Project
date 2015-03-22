@@ -63,4 +63,5 @@ melt_data   <- melt(data, id = id_labels, measure.vars = data_labels)
 # Apply mean function to dataset using dcast function
 tidy_data   = dcast(melt_data, Subject + Activity ~ variable, mean)
 
+# Write tiday data set to file "tidy_data.txt"
 write.table(tidy_data, file = "./tidy_data.txt", row.name = FALSE)
