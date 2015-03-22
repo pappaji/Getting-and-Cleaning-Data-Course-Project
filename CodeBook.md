@@ -47,9 +47,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ### How run_analysis.R implements the above steps
-Loads "data.table" and "reshape2" library
-Loads both test and train data.
-Load the features and activity labels.
-Extract the mean and standard deviation column names and data.
-Merge data set.
-Create tidy data with average of each variable for activity and subject.
+- Loads "data.table" and "reshape2" library
+- Loads both test and train data.
+- Load the features and activity labels.
+- Extract the mean and standard deviation column names and data.
+- Merge data set.
+- Create tidy data with average of each variable for activity and subject.
